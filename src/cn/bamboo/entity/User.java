@@ -10,7 +10,7 @@ public class User {
 
     private int id;
     private String username;
-    private Date birthday;
+    private String birthday;
     private String sex;
     private String address;
 
@@ -22,7 +22,7 @@ public class User {
         this.username = username;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
@@ -42,7 +42,7 @@ public class User {
         return username;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
