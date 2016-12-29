@@ -6,9 +6,9 @@
     <session-factory>
         <!--第一部分：配置数据库信息 必须的-->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://***********.com</property>
-        <property name="hibernate.connection.username">**********</property>
-        <property name="hibernate.connection.password">********</property>
+        <property name="hibernate.connection.url">jdbc:mysql://qdm114586148.my3w.com/qdm114586148_db</property>
+        <property name="hibernate.connection.username">qdm114586148</property>
+        <property name="hibernate.connection.password">jiangroot</property>
 
         <!--第二部分：配置hibernate信息 可选的-->
         <!--输出底层sql语句-->
@@ -26,7 +26,11 @@
         -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
+        <!--在hibernate核心配置文件中配置session绑定hibernate-->
+        <property name="hibernate.current_session_context_class">thread</property>
+
         <!--第三部分：把映射文件放到核心配置文件中 必须的-->
-        <mapping resource="cn/bamboo/entity/User.hbm.xml"/>
+        <!--<mapping resource="cn/bamboo/entity/User.hbm.xml"/>-->
+        <mapping class="cn.bamboo.entity.User"/>
     </session-factory>
 </hibernate-configuration>

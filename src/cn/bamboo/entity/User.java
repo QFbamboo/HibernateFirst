@@ -1,13 +1,18 @@
 package cn.bamboo.entity;
 
+import javax.persistence.*;
 import java.util.Date;
 
 /**
  * User实体类
  * Created by p1411 on 2016/12/22.
  */
+@Entity
+@Table(name="t_user")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String username;
     private String birthday;
@@ -52,5 +57,16 @@ public class User {
 
     public String getAddress() {
         return address;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
