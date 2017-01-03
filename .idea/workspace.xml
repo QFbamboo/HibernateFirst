@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a6ffef-33b5-402b-8884-e69fc6d03014" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HibernateFirst/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/HibernateFirst/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/bamboo/entity/User.java" afterPath="$PROJECT_DIR$/src/cn/bamboo/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java" afterPath="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java" afterPath="$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java" afterPath="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java" />
     </list>
     <ignored path="HibernateFirst.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,49 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-              <folding>
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HibernateQueryData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="348">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testQuery#0;class#HibernateQueryData#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java" />
+        <option value="$PROJECT_DIR$/src/cn/bamboo/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/cn/bamboo/entity/Contacts.java" />
       </list>
     </option>
   </component>
@@ -146,7 +107,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,7 +208,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +224,7 @@
       <recent name="D:\Code\JavaProjects\HibernateFirst\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateQueryData.testQuery">
+  <component name="RunManager" selected="JUnit.HibernateQueryData.testSqlQuery">
     <configuration default="false" name="HibernateDemo.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -329,6 +290,58 @@
       <option name="PACKAGE_NAME" value="cn.bamboo.hibernatetest" />
       <option name="MAIN_CLASS_NAME" value="cn.bamboo.hibernatetest.HibernateQueryData" />
       <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateQueryData.testCriteria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.bamboo.hibernatetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HibernateFirst" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.bamboo.hibernatetest" />
+      <option name="MAIN_CLASS_NAME" value="cn.bamboo.hibernatetest.HibernateQueryData" />
+      <option name="METHOD_NAME" value="testCriteria" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HibernateQueryData.testSqlQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.bamboo.hibernatetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HibernateFirst" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.bamboo.hibernatetest" />
+      <option name="MAIN_CLASS_NAME" value="cn.bamboo.hibernatetest.HibernateQueryData" />
+      <option name="METHOD_NAME" value="testSqlQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -586,16 +599,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testAdd" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testUpdate" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testQuery" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testCriteria" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testSqlQuery" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testQuery" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testAdd" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testUpdate" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testSqlQuery" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testCriteria" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateQueryData.testQuery" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testAdd" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateDemo.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -616,26 +633,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 10h 40m 09s.xml">
-      <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 13h 52m 22s.xml">
-      <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 13h 52m 48s.xml">
-      <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 19h 12m 23s.xml">
-      <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 19h 12m 50s.xml">
-      <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HibernateDemo_testAdd - 2016.12.27 at 19h 13m 29s.xml">
       <configuration name="HibernateDemo.testAdd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HibernateDemo_testUpdate - 2016.12.27 at 14h 11m 26s.xml">
       <configuration name="HibernateDemo.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryData_testCriteria - 2016.12.29 at 14h 32m 46s.xml">
+      <configuration name="HibernateQueryData.testCriteria" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HibernateQueryData_testQuery - 2016.12.29 at 14h 18m 48s.xml">
       <configuration name="HibernateQueryData.testQuery" configurationId="JUnit" />
@@ -645,6 +650,18 @@
     </history-entry>
     <history-entry file="HibernateQueryData_testQuery - 2016.12.29 at 14h 19m 36s.xml">
       <configuration name="HibernateQueryData.testQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryData_testSqlQuery - 2016.12.29 at 14h 39m 36s.xml">
+      <configuration name="HibernateQueryData.testSqlQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryData_testSqlQuery - 2016.12.29 at 14h 40m 15s.xml">
+      <configuration name="HibernateQueryData.testSqlQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryData_testSqlQuery - 2016.12.29 at 14h 45m 29s.xml">
+      <configuration name="HibernateQueryData.testSqlQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryData_testSqlQuery - 2016.12.29 at 14h 50m 32s.xml">
+      <configuration name="HibernateQueryData.testSqlQuery" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -662,7 +679,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409836" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -679,6 +695,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409836" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,70 +723,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-          <folding>
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#573#574#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#681#682#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#948#949#0" expanded="false" />
-            <element signature="e#978#979#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1068#1069#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="190">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/Contacts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testQuery#0;class#HibernateQueryData#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,8 +779,8 @@
         <state relative-caret-position="380">
           <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,7 +798,69 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testQuery#0;class#HibernateQueryData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#681#682#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1068#1069#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,9 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,8 +947,8 @@
         <state relative-caret-position="323">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -935,9 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,11 +1166,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.0.7.Final.jar!/org/hibernate/Query.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1160,37 +1185,42 @@
         <state relative-caret-position="380">
           <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.0.7.Final.jar!/org/hibernate/Query.class">
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/Contacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/bamboo/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/bamboo/hibernatetest/HibernateQueryData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="348">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testQuery#0;class#HibernateQueryData#0" expanded="false" />
           </folding>
         </state>
       </provider>
