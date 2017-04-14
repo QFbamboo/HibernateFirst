@@ -6,9 +6,9 @@
     <session-factory>
         <!--第一部分：配置数据库信息 必须的-->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://qdm114586148.my3w.com/qdm114586148_db</property>
-        <property name="hibernate.connection.username">qdm114586148</property>
-        <property name="hibernate.connection.password">jiangroot</property>
+        <property name="hibernate.connection.url">jdbc:mysql://**********.my3w.com/**************</property>
+        <property name="hibernate.connection.username">*********</property>
+        <property name="hibernate.connection.password">*********</property>
 
         <!--第二部分：配置hibernate信息 可选的-->
         <!--输出底层sql语句-->
